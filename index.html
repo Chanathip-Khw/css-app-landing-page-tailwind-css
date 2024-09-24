@@ -8,6 +8,70 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <!-- Start Coding Here -->
+    <section class="flex flex-col justify-center items-center mt-11">
+      <div
+        class="bg-white p-14 rounded-2xl w-full max-w-screen-xl shadow-lg relative"
+      >
+        <h2 class="font-bold text-center mb-8 text-4xl">Get in Touch</h2>
+        <form class="space-y-6">
+          <div>
+            <label for="name" id="name" class="block text-left font-medium"
+              >Name</label
+            >
+            <input
+              type="text"
+              id="name"
+              placeholder="John Doe"
+              class="border-2 border-gray-100 rounded-md p-2 w-full"
+            />
+          </div>
+
+          <div>
+            <label for="email" id="email" class="block text-left font-medium"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              placeholder="john@example.com"
+              class="border-2 border-gray-100 rounded-md p-2 w-full"
+            />
+          </div>
+
+          <div>
+            <label
+              for="message"
+              id="message"
+              class="block text-left font-medium"
+              >message</label
+            >
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Your message..."
+              class="border-2 border-gray-100 rounded-md p-2 w-full"
+            ></textarea>
+
+            <button
+              type="submit"
+              class="block font-medium bg-black text-white w-full rounded-md p-2 mt-6"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer
+      class="w-full flex justify-between items-center max-w-screen-xl mx-auto py-6 text-gray-500 text-sm mt-12"
+    >
+      <p class="text-xl">Acme productivity app &copy; 2024</p>
+      <div class="space-x-4 font-bold text-lg">
+        <a href="#" class="hover:underline">FAQ</a>
+        <a href="#" class="hover:underline">Terms</a>
+        <a href="#" class="hover:underline">AI Policy</a>
+        <a href="#" class="hover:underline">Pricing</a>
+      </div>
+    </footer>
   </body>
 </html>
